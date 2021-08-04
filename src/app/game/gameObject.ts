@@ -1,11 +1,11 @@
-export class gameObject {
+export class GameObject {
     image: string;
     x: number;
     y: number;
     width: number;
     height: number;
 
-    constructor(x, y, width, height, image) {
+    constructor(x: number, y: number, width: number, height: number, image: string) {
         this.x = x;
         this.y = y;
         this.width = width;
